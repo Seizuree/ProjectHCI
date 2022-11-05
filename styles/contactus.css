@@ -1,0 +1,98 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 1% 5%;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.topcontainer span{
+    margin-left: 15px;
+    font-size: 32px;
+    margin-top: 5px;
+}
+
+.topcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.topcontainer img{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.leftcontainer p{
+    font-size: 16px;
+    text-align: center;  
+}
+
+.social-button{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.social-button img{
+    width: 35px;
+    height: 35px;
+}
+
+.social-button button{
+    width:250px;
+    font-size: 16px;
+    color: white;
+    background-color: #600000;
+    border: none;
+    padding: 5.5px 0px;
+    margin-left: 40px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.social-button button:hover{
+    background-color: #c4c2c2;
+    color: #474747;
+}
+
+.rightcontainer{
+    margin-top: 5px;
+}
+
+.rightcontainer h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+}
+
+.store-address{
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+
+.store-address h2{
+    font-weight: 500;
+    margin-top: 10px;
+}

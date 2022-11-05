@@ -1,0 +1,180 @@
+.first-container{
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(./firstcontainer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+.gibsonlogomain{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.leftcontainer{
+    margin-top: 5%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+
+.leftcontainer button{
+    font-size: 24px;
+    padding: 5px 25%;
+    margin-top: 20px;
+    background-color: #b8b8b8;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.leftcontainer button:hover{
+    background-color: black;
+    color: white;
+}
+
+.rightcontainer{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.rightcontainer img{
+    margin-top: 5%;
+    width: 300px;
+}
+
+.second-container h1{
+    text-align: center;
+    font-weight: 100;
+    margin-top: 50px;
+}
+
+.trending-guitar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.trending-guitar img{
+    margin-top: 30px;
+    width: 320px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.trending-guitar img:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.showcase{
+    background-color: #f1f1f1;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.price{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.gibson-es335 img, .fenderparlor img{
+    padding-bottom: 11px;
+}
+
+.gibson-firebird, .fender-corywong{
+    margin-top:50px;
+}
+
+.fender-corywong img{
+    padding-bottom: 12px;
+}
+
+.yamaha-cg192s{
+    margin-top: 50px;
+}
+
+.yamaha-cg192s img{
+    padding-bottom: 2px;
+    margin-top: 20px;
+}
+
+.gibson-firebird img{
+    padding-bottom: 15px;
+}
+
+.seemore-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.seemore-button button{
+    font-size: 24px;
+    background-color: #800000;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.seemore-button button:hover{
+    background-color: #c4c2c2;
+    color: #474747;
+}
+
+@media(max-width: 850px){
+    .first-container{
+        flex-direction: column-reverse;
+        margin: auto;
+        background-size: auto;
+    }
+
+    .leftcontainer{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rightcontainer{
+        margin:auto;
+    }
+}

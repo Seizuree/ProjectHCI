@@ -1,0 +1,47 @@
+.title h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 2%;
+}
+.content p{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.photocard{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.photocard p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.first-photo, .second-photo, .third-photo{
+    margin-bottom: 50px;
+}
+
+.first-photo img{
+    width: 350px;
+}
+
+.second-photo img{
+    width: 400px;
+}
+
+.third-photo img{
+    width: 338px;
+}

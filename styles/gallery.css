@@ -1,0 +1,118 @@
+.gallery-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    margin-right: 20%;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.right{
+    margin-left: 20%;
+}
+
+.right button{
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-top:25%;
+    background-color: #600000;
+    color:white;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.right button:hover{
+    background-color: #ebe8e8;
+    color: #600000;
+}
+
+.productimage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.productimage img{
+    margin-top: 30px;
+    width: 320px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.productimage img:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.showcase{
+    background-color: #f1f1f1;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.price{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.gibson-es335 img, .fenderparlor img{
+    padding-bottom: 10px;
+}
+
+.fender-eric img{
+    margin-top: 35px;
+    padding-bottom: 25px;
+}
+
+.fender-jazz img{
+    padding-bottom: 25px;
+}
+
+.fender-fa15n img, .yamaha-cg192s img, .fender-cn140sce img{
+    padding-bottom: 2px;
+}
+
+.gibson-dave{
+    padding: 15px 22px;
+}
+
+@media(max-width: 850px){
+    .left{
+        margin-right: 0;
+    }
+    
+    .right{
+        margin-left: 0;
+    }
+}

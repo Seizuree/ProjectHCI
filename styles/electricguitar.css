@@ -1,0 +1,72 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.productimage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.productimage img{
+    margin-top: 30px;
+    width: 320px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.productimage img:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.showcase{
+    background-color: #f1f1f1;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.title{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.price{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.gibson-es335 img{
+    padding-bottom: 10px;
+}
+
+.fender-eric img{
+    margin-top: 35px;
+    padding-bottom: 23px;
+}
+
+.fender-jazz img{
+    padding-bottom: 25px;
+}
+
+.gibson-maestro img{
+    padding-bottom: 5px;
+}
+
+.gibson-lespaul img{
+    margin-top:30px;
+}

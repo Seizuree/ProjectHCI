@@ -1,0 +1,141 @@
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: auto;
+    align-items: center;
+    margin: 50px auto auto;
+    background: #F5f5f5;
+    padding: 25px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.title h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.userdetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.signup-form{
+    margin-bottom: 25px;
+    width: calc(100% / 2 - 20px);
+}
+
+.signup-form input{
+    font-size: 18px;
+    height: 45px;
+    width: 100%;
+    padding-left: 15px;
+    /* outline: none; */
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.signup-form span,.gender-details span{
+    font-size: 24px;
+}
+
+.category{
+    margin-top:.5%;
+}
+
+.category label{
+    margin-left: .5%;
+    margin-right: .5%;
+    font-size: 20px;
+}
+
+.category input[type=radio]{
+    width: .85rem;
+    height: .85rem;
+}
+
+.email-checkbox{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email-checkbox input{
+    width: .9rem;
+    height: .9rem;
+    margin-right: 10px;
+}
+
+.already{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.already a{
+    color: #800000;
+}
+
+.submit-button{
+    height: 45px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button button{
+    height: auto;
+    width: 50%;
+    outline:none;
+    color: white;
+    background-color: #800000;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.submit-button button:hover{
+    background-color: #ebe8e8;
+    color: #800000;
+}
+
+#firstname-error, #lastname-error, #address-error, #email-error, 
+#password-error, #confirmpassword-error, #gender-error, 
+#checkbox-error {
+    color: red;
+}
+
+@media (max-width: 800px){
+    .signup-container{
+        max-width: 90%;
+    }
+
+    .signup-form{
+        width: 100%;
+    }
+
+    .submit-button button{
+        width: 75%;
+    }
+}

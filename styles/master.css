@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue";
+}
+
+nav{
+    background-color: #600000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    min-height: auto;
+    padding: 0 0 0 24px;
+}
+
+.logoimage{
+    width: 60px;
+    margin: 20% 20%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbarlinks ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.navbarlinks ul li{
+    margin-right: 5px;
+}
+
+.navbarlinks ul li a{
+    position: relative;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: white;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.navbarlinks li a:after{
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: beige;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.navbarlinks li a:hover:after{
+    width: 100%;
+}
+
+.navbarlinks .now:after{
+    width: 100% !important;
+}
+
+.dropdowncontent{  
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+    background-color: white;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.dropdowncontent a{
+    color: black !important;
+    font-size: 26px !important;
+    padding: 20px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.dropdowncontent a::after{
+    background-color: #600000 !important;
+}
+
+.dropdown:hover .dropdowncontent{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.hamburgerbutton{
+    display: none;
+    padding-right: 24px;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.topfooter{
+    margin-top: 50px;
+    background-color: #ebe8e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    height: auto;
+}
+
+.email-container h1{
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+#email{
+    margin-bottom: 20px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    padding-right: 135px;
+    border-bottom: 2px solid black;
+}
+
+#email:focus{
+    outline: none;
+}
+
+.email-container button{
+    font-size: 18px;
+    font-weight: 100;
+    background-color: black;
+    border: none;
+    color:white;
+    padding: 8px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.email-container button span{
+    margin-left: 5px;
+    margin-bottom: 2.5px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.socialmedia-container{
+    margin-right: 10%;
+}
+
+.socialmedia-container h1{
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.socialmedia-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(155, 155, 155, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.4s ease;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.socialmedia-links a:hover{
+    color: white;
+    background-color: #600000;
+}
+
+.footercontainer{
+    background-color: #555555;
+    height: auto;
+    padding: 25px 0;
+}
+
+.row{
+    background-color: #555555;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+.footerlogo{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.isifooter{
+    width: 25%;
+    padding: 0 2%;
+}
+
+.isifooter h4{
+    margin-top:20px;
+    margin-bottom: 30px;
+    color: white;
+    font-size:32px;
+    font-weight: 500;
+    position: relative;
+}
+
+.isifooter h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(53, 52, 52);
+    height: 2px;
+    width: 85px;
+    box-sizing: border-box;
+}
+
+.isifooter ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.isifooter ul li a{
+    color: #acacac;
+    font-size:20px;
+    text-decoration: none;
+    font-weight:100;
+    display: block;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.isifooter ul li a:hover{
+    color: #FFFFFF;
+}
+
+.footercontainer hr{
+    margin: 50px 11% 0;
+    border: 0.5px solid rgb(58, 58, 58);
+}
+
+.endfooter{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.leftendfooter p{
+    font-size: 18px;
+}
+
+.rightendfooter p{
+    font-size: 18px;
+}
+
+@media(max-width: 850px){
+    .hamburgerbutton{
+        display: block;
+    }
+
+    .hamburgerbutton.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+        -webkit-transform: translateY(8px) rotate(45deg);
+        -moz-transform: translateY(8px) rotate(45deg);
+        -ms-transform: translateY(8px) rotate(45deg);
+        -o-transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburgerbutton.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburgerbutton.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        -moz-transform: translateY(-8px) rotate(-45deg);
+        -ms-transform: translateY(-8px) rotate(-45deg);
+        -o-transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navbarlinks ul{
+        position: absolute;
+        display: flex;
+        left: -100%;
+        top: 160px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #600000;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+
+    .navbarlinks ul li{
+        margin: 15px 0;
+        padding-bottom: 20px;
+    }
+
+    .navbarlinks ul.active{
+        left: 0;
+    }
+
+    .dropdown:hover .dropdowncontent{
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+
+    .isifooter{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .topfooter{
+        flex-direction: column;
+    }
+
+    .email-container{
+        margin: auto;
+    }
+
+    .socialmedia-container{
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .endfooter{
+        flex-direction: column;
+    }
+
+    .leftendfooter p{
+        margin-bottom: 10px;
+    }
+}
